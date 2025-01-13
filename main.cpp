@@ -2,7 +2,7 @@
 #include <string>
 int contextMenu();
 
-class work{
+class work {
 private:
     std::string m_text;
     std::string task = "This excerpt calls for exploring the world, preserving one's own identity, and respecting other cultures. It beautifully conveys the wisdom and patriotism inherent in Shevchenko's work.";
@@ -46,7 +46,7 @@ int contextMenu() {
             case 2:
                 break;
             case 3:
-                std::cout << "Program is closing. Goodbye!" << std::endl;
+                std::cout << "Program is closing!" << std::endl;
                 return 0;
             default:
                 std::cout << "Error number!" << std::endl;
