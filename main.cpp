@@ -29,7 +29,7 @@ public:
 
 int contextMenu() {
     int number = 0;
-    while (number); {
+    while (!number) {
         std::cout << std::endl;
         std::cout << "[1] - play" << std::endl;
         std::cout << "[2] - settings" << std::endl;
@@ -53,6 +53,7 @@ int contextMenu() {
                 break;
         }
     }
+    return 0;
 }
 
 int main() {
