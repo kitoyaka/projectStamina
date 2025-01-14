@@ -25,12 +25,13 @@ int contextMenu::startMenu() {
             }
             case 3: {
                 std::cout << "Program is closing!" << std::endl;
-                return 0;
+                break;
             }
             default:
                 std::cout << "Error number!" << std::endl;
             break;
         }
+        return 0;
     }
 }
 

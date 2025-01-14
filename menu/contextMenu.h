@@ -1,4 +1,7 @@
-#pragma once;
+#ifndef CONTEXTMENU_H
+#define CONTEXTMENU_H
+
+
 #include "../writingWork.h"
 
 class contextMenu {
@@ -7,3 +10,6 @@ private:
 public:
     int startMenu();
 };
+
+
+#endif //CONTEXTMENU_H

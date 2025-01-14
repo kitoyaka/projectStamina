@@ -1,4 +1,6 @@
-#pragma once;
+#ifndef WRITINGWORK_H
+#define WRITINGWORK_H
+
 #include <string>
 #include <iostream>
 
@@ -12,3 +14,5 @@ public:
     std::string getTask() { return task; }
     void writeTask();
 };
+
+#endif // WRITINGWORK_H
