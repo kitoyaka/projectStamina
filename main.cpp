@@ -1,30 +1,9 @@
 #include <iostream>
 #include <string>
+#include "writingWork.h"
 
-class work {
-private:
-    std::string m_text;
-    std::string task = "This excerpt calls for exploring the world, preserving one's own identity, and respecting other cultures. It beautifully conveys the wisdom and patriotism inherent in Shevchenko's work.";
-public:
-    void setTask(const std::string &newTask) {  task = newTask; }
-    std::string getTask() { return task; }
 
-    void writeTask() {
-        std::cout << std::endl << "You need to rewrite this text: ";
-        std::cin.ignore();
-        std::getline(std::cin, m_text);
-        if(m_text == task) {
-            std::cout << "Nice! Correct" << std::endl;
-        }
-        else {
-            std::cout << "Wrong!" << std::endl;
-        }
-    }
-};
-
-int contextMenu(work &Task);
-
-int contextMenu(work &Task) {
+int contextMenu(writingWork &Task) {
     int number;
     while(true) {
         std::cout << std::endl;
@@ -58,6 +37,6 @@ int contextMenu(work &Task) {
 }
 
 int main() {
-    work Task;
+    writingWork Task;
     contextMenu(Task);
 }
