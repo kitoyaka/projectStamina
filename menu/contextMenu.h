@@ -1,10 +1,4 @@
-//
-// Created by Sasha on 14.01.2025.
-//
-
-#ifndef CONTEXTMENU_H
-#define CONTEXTMENU_H
-
+#pragma once;
 #include "../writingWork.h"
 
 class contextMenu {
@@ -13,7 +7,3 @@ private:
 public:
     int startMenu();
 };
-
-
-
-#endif //CONTEXTMENU_H
