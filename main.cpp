@@ -13,8 +13,6 @@ public:
         std::cout << std::endl << "You need to rewrite this text: ";
         std::cin.ignore();
         std::getline(std::cin, m_text);
-
-        std::cout << std::endl;
         if(m_text == task) {
             std::cout << "Nice! Correct" << std::endl;
         }
@@ -25,11 +23,6 @@ public:
 };
 
 int contextMenu(work &Task);
-
-int main() {
-    work Task;
-    contextMenu(Task);
-}
 
 int contextMenu(work &Task) {
     int number;
@@ -64,3 +57,7 @@ int contextMenu(work &Task) {
     }
 }
 
+int main() {
+    work Task;
+    contextMenu(Task);
+}
