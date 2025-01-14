@@ -4,4 +4,6 @@ project(projectStamina)
 set(CMAKE_CXX_STANDARD 20)
 
 
-add_executable(projectStamina main.cpp)
+add_executable(projectStamina main.cpp
+        writingWork.cpp
+        writingWork.h)
