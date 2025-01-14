@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/rigry/CLionProjects/projectStamina/main.cpp" "CMakeFiles/projectStamina.dir/main.cpp.obj" "gcc" "CMakeFiles/projectStamina.dir/main.cpp.obj.d"
-  "C:/Users/rigry/CLionProjects/projectStamina/writingWork.cpp" "CMakeFiles/projectStamina.dir/writingWork.cpp.obj" "gcc" "CMakeFiles/projectStamina.dir/writingWork.cpp.obj.d"
+  "D:/projectStamina/main.cpp" "CMakeFiles/projectStamina.dir/main.cpp.obj" "gcc" "CMakeFiles/projectStamina.dir/main.cpp.obj.d"
+  "D:/projectStamina/menu/contextMenu.cpp" "CMakeFiles/projectStamina.dir/menu/contextMenu.cpp.obj" "gcc" "CMakeFiles/projectStamina.dir/menu/contextMenu.cpp.obj.d"
+  "D:/projectStamina/writingWork.cpp" "CMakeFiles/projectStamina.dir/writingWork.cpp.obj" "gcc" "CMakeFiles/projectStamina.dir/writingWork.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

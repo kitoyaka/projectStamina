@@ -1,9 +1,5 @@
-//
-// Created by rigry on 14.01.2025.
-//
-
 #include "writingWork.h"
-
+#include "menu/contextMenu.h"
 
 void writingWork::writeTask() {
     std::cout << std::endl << "You need to rewrite this text: ";

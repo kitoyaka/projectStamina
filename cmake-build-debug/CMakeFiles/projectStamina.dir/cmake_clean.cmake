@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/projectStamina.dir/main.cpp.obj"
   "CMakeFiles/projectStamina.dir/main.cpp.obj.d"
+  "CMakeFiles/projectStamina.dir/menu/contextMenu.cpp.obj"
+  "CMakeFiles/projectStamina.dir/menu/contextMenu.cpp.obj.d"
   "CMakeFiles/projectStamina.dir/writingWork.cpp.obj"
   "CMakeFiles/projectStamina.dir/writingWork.cpp.obj.d"
   "libprojectStamina.dll.a"
