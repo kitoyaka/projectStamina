@@ -1,8 +1,7 @@
-#ifndef PROJECTSTAMINA_WRITINGWORK_H
-#define PROJECTSTAMINA_WRITINGWORK_H
-
+#pragma once;
 #include <string>
 #include <iostream>
+
 
 class writingWork {
 private:
@@ -13,5 +12,3 @@ public:
     std::string getTask() { return task; }
     void writeTask();
 };
-
-#endif //PROJECTSTAMINA_WRITINGWORK_H

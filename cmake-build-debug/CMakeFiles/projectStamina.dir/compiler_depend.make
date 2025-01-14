@@ -152,7 +152,6 @@ CMakeFiles/projectStamina.dir/main.cpp.obj: D:/projectStamina/main.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
-  D:/projectStamina/writingWork.h \
   D:/projectStamina/menu/contextMenu.h \
   D:/projectStamina/writingWork.h
 
@@ -461,7 +460,6 @@ CMakeFiles/projectStamina.dir/writingWork.cpp.obj: D:/projectStamina/writingWork
   C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
-  D:/projectStamina/writingWork.h \
   D:/projectStamina/menu/contextMenu.h \
   D:/projectStamina/writingWork.h
 
@@ -770,8 +768,8 @@ C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/x86_64-w64-mingw32/inclu
 
 C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h:
 
-D:/projectStamina/writingWork.h:
-
 D:/projectStamina/menu/contextMenu.h:
+
+D:/projectStamina/writingWork.h:
 
 D:/projectStamina/menu/contextMenu.cpp:
