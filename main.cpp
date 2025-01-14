@@ -28,15 +28,15 @@ public:
 };
 
 int contextMenu() {
-    int number = 0;
-    while (!number) {
+    int number;
+    while(true) {
         std::cout << std::endl;
         std::cout << "[1] - play" << std::endl;
         std::cout << "[2] - settings" << std::endl;
         std::cout << "[3] - exit" << std::endl;
         std::cout<< std::endl << "Write the relevant number: ";
         std::cin >> number;
-        switch (number) {
+        switch(number) {
             case 1: {
                 work Task;
                 std::cout << Task.getTask() << std::endl;
@@ -53,10 +53,8 @@ int contextMenu() {
                 break;
         }
     }
-    return 0;
 }
 
 int main() {
     contextMenu();
-return 0;
 }
