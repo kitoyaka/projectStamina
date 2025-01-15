@@ -3,10 +3,12 @@
 
 
 #include "../writingWork.h"
+#include <limits>
 
 class contextMenu {
 private:
     writingWork example;
+    int number;
 public:
     int startMenu();
 };

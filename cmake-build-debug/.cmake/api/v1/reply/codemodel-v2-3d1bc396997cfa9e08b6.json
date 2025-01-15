@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/rigry/CLionProjects/projectStamina/cmake-build-debug",
-		"source" : "C:/Users/rigry/CLionProjects/projectStamina"
+		"build" : "D:/projectStamina/cmake-build-debug",
+		"source" : "D:/projectStamina"
 	},
 	"version" : 
 	{

@@ -1,15 +1,23 @@
 #include "contextMenu.h"
 
 int contextMenu::startMenu() {
-    int number;
     while (true) {
         std::cout << std::endl;
         std::cout << "[1] - play" << std::endl;
         std::cout << "[2] - settings" << std::endl;
         std::cout << "[3] - exit" << std::endl;
-        std::cout<< std::endl << "Write the relevant number: ";
-        std::cin >> number;
-        switch(number) {
+        std::cout << std::endl << "Write the relevant number: ";
+
+        if (!(std::cin >> number)) {
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cout << "Invalid input! Please enter a number." << std::endl;
+            continue;
+        }
+
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //
+
+        switch (number) {
             case 1: {
                 std::cout << example.getTask() << std::endl;
                 example.writeTask();
@@ -18,20 +26,18 @@ int contextMenu::startMenu() {
             case 2: {
                 std::string newTask;
                 std::cout << "Write the new text you want to practice: ";
-                std::cin.ignore();
                 std::getline(std::cin, newTask);
                 example.setTask(newTask);
                 break;
             }
             case 3: {
                 std::cout << "Program is closing!" << std::endl;
+                return 0;
+            }
+            default: {
+                std::cout << "Invalid choice! Please select 1, 2, or 3." << std::endl;
                 break;
             }
-            default:
-                std::cout << "Error number!" << std::endl;
-            break;
         }
-        return 0;
     }
 }
-
