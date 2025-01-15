@@ -32,7 +32,7 @@ int contextMenu::startMenu() {
             }
             case 3: {
                 std::cout << "Program is closing!" << std::endl;
-                return 0;
+                std::cin.get();
             }
             default: {
                 std::cout << "Invalid choice! Please select 1, 2, or 3." << std::endl;
