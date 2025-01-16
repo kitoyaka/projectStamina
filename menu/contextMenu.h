@@ -7,6 +7,7 @@
 
 class contextMenu {
 private:
+    std::string newTask;
     writingWork example;
     int number;
 public:

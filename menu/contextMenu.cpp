@@ -15,7 +15,7 @@ int contextMenu::startMenu() {
             continue;
         }
 
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Очищення буфера вводу
 
         switch (number) {
             case 1: {
@@ -24,9 +24,8 @@ int contextMenu::startMenu() {
                 break;
             }
             case 2: {
-                std::string newTask;
                 std::cout << "Write the new text you want to practice: ";
-                std::getline(std::cin, newTask);
+                std::getline(std::cin, newTask); // Зчитування рядка з пробілами
                 example.setTask(newTask);
                 break;
             }
