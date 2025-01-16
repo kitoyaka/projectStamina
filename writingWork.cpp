@@ -1,4 +1,5 @@
-#include "writingWork.h"
+#include "menu/contextMenu.h"
+
 
 void writingWork::writeTask() {
     std::cout << std::endl << "You need to rewrite this text: ";
@@ -14,12 +15,4 @@ void writingWork::writeTask() {
         std::cout << "Wrong!" << std::endl;
     }
     setColor(7, 0);
-}
-
-void writingWork::setTask(const std::string &newTask) {
-    task = newTask;
-}
-
-std::string writingWork::getTask() {
-    return task;
 }
