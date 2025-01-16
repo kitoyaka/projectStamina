@@ -1,15 +1,13 @@
 #ifndef CONTEXTMENU_H
 #define CONTEXTMENU_H
 
-#include "../writingWork.h"
-#include <windows.h>
-#include <limits>
 
-void setColor(int textColor, int bgColor);
+#include "../writingWork.h"
+#include <limits>
 
 class contextMenu {
 private:
-    int m_number = 0;
+    int number;
     writingWork example;
 public:
     int startMenu();
