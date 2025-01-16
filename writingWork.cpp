@@ -9,6 +9,7 @@ void writingWork::writeTask() {
     if(m_text == task) {
         setColor(2, 0);
         std::cout << "Nice! Correct" << std::endl;
+        std::cout << "Press ENTER to continue" << std::endl;
     }
     else {
         setColor(4, 0);
