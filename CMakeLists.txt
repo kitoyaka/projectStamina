@@ -8,4 +8,5 @@ add_executable(projectStamina main.cpp
         writingWork.cpp
         writingWork.h
         menu/contextMenu.cpp
-        menu/contextMenu.h)
+        menu/contextMenu.h
+)

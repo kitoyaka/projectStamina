@@ -7,8 +7,8 @@
 
 class contextMenu {
 private:
-    writingWork example;
     int number;
+    writingWork example;
 public:
     int startMenu();
 };

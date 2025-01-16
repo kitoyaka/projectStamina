@@ -22,6 +22,9 @@ int contextMenu::startMenu() {
             }
             case 2: {
                 std::string newTask;
+                system("cls");
+                std::cout << "\tSTAMINA GAME!" << std::endl;
+                std::cout << std::endl;
                 std::cout << "Write the new text you want to practice: ";
                 std::cin.ignore();
                 std::getline(std::cin, newTask);
@@ -37,6 +40,11 @@ int contextMenu::startMenu() {
                 std::cout << "Invalid choice! Please select 1, 2, or 3." << std::endl;
                 break;
             }
+        }
+        if (number != 2) {
+            std::cin.get();
+            system("cls");
+            std::cout << "\tSTAMINA GAME!" << std::endl;
         }
     }
 }
