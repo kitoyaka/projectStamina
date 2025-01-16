@@ -1,0 +1,44 @@
+# тут ігноримо файли зборки
+cmake-build-debug/
+cmake-build-release/
+build/
+
+# ігнорування CMake тимчасових файлів
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ігнорування файлів CLion
+.idea/
+*.iml
+
+# ігнорування тимчасовий файлів і логів
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ігнорування бінарних файлів
+*.o
+*.a
+*.so
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# ігнорування юзерських модиф.
+*.user
+*.db
+*.opendb
+*.VC.db
+
+# ігнорування файлів пов'язаних з MinGW
+*.d
+*.dep
+
+# ігнорування файлів ОС
+.DS_Store
+Thumbs.db
