@@ -3,7 +3,7 @@
 
 #include <string>
 #include <iostream>
-
+#include <windows.h>
 
 class writingWork {
 private:
@@ -13,6 +13,10 @@ public:
     void setTask(const std::string &newTask) {  task = newTask; }
     std::string getTask() { return task; }
     void writeTask();
+    void setColor(int textColor, int bgColor) {
+        HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+        SetConsoleTextAttribute(hConsole, (bgColor << 4) | textColor);
+    }
 };
 
 #endif // WRITINGWORK_H
