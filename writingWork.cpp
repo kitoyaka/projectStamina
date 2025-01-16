@@ -1,25 +1,25 @@
-#include "menu/contextMenu.h"
+#include "writingWork.h"
 
 void writingWork::writeTask() {
-    std::cout << std::endl << "Write: ";
-
-    // Очищення буфера перед зчитуванням введеного рядка
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
-    std::getline(std::cin, m_text); // Зчитуємо рядок
-
-    // Очищаємо пробіли на початку і в кінці введеного рядка
-    m_text.erase(0, m_text.find_first_not_of(' ')); // Вилучаємо пробіли на початку
-    m_text.erase(m_text.find_last_not_of(' ') + 1); // Вилучаємо пробіли в кінці
-
-    // Вивести обидва рядки для перевірки, чи вони однакові
-    std::cout << "You entered: '" << m_text << "'" << std::endl;
-    std::cout << "Stored task is: '" << task << "'" << std::endl;
-
-    // Перевірка на правильність
-    if (m_text == task) {
+    std::cout << std::endl << "You need to rewrite this text: ";
+    writingWork example;
+    std::cin.ignore();
+    std::getline(std::cin, m_text);
+    if(m_text == task) {
+        setColor(2, 0);
         std::cout << "Nice! Correct" << std::endl;
-    } else {
+    }
+    else {
+        setColor(4, 0);
         std::cout << "Wrong!" << std::endl;
     }
+    setColor(7, 0);
+}
+
+void writingWork::setTask(const std::string &newTask) {
+    task = newTask;
+}
+
+std::string writingWork::getTask() {
+    return task;
 }
